@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+ 
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 5% 42% 0%;
+    background-image: url('./imagenes/Curso1.jpg');
+    background-size: cover; 
+    position: relative;
+}
+.Logo img {
+    width: 150px;
+}
+.fondo{
+    background-image: url('./imagenes/Curso1.jpg');
+    background-size: cover; 
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 4% 0% 0% 0%;
+    }
+    .Logo img {
+        width: 100px;
+    }
+    #carouselExample .carousel-inner .carousel-item img {
+        width: 100%;
+        height: 200px; /* Ajusta la altura automáticamente */
+}
+    #flecha{
+        padding-left: 42%;
+
+    }
+    #navbarNavAltMarkup{
+        background-color: #CAD8DE;
+    }
+    .navbar .container-fluid{
+        background-color: #3C896D;
+        padding-right: 1%; 
+
+    }
+    .form{
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(
+            50deg, 
+            #98a27ee0 10%,
+            #645853cb), 
+            url('./imagenes/bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15px;
+        width: 100px;
+        border-radius: 30px;
+        
+    }
+    
+}
+
+.carousel-item img{
+    width: 600px;
+    padding: 0 30% 0 30%;
+    height: 700px;
+}
+i{
+    font-size: 80px;
+    padding-top: 3%;
+    padding-left: 48%;
+    align-self: center;
+    justify-content: center;
+    box-shadow: #28012b;
+}
+.personal{
+    display: flex;
+    justify-content:center;
+
+}
+.card{
+    margin: 10px;
+    padding-bottom: 10%;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: #28012b;
+    cursor: default;
+    transition: all 300ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 1px 5px 1px #28012b;
+    transform: translateY(-2%);
+}
+.card img{
+    width: 100%;
+    height: 250px;
+}
+.nav-link {
+    font-size: 23px;
+    margin: 0% 10% 0% 0%;
+    text-align: center;
+    line-height: 20px;
+}
+.navbar-nav a:hover {
+    color: #8a5f8d;
+    background-color: #dae4e0;
+    transform: scale(1.1);
+    border: 1px solid #8a5f8d;
+    border-radius: 5px;
+}
+
+h1{
+    background-color: #48aa86;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    font-style: oblique;
+    font-size: 45px;
+}
+
+.form .btn {
+    
+    background-color: #645853; 
+    color: #fff; 
+    margin-top: 5%;
+    padding: 10px 20px 10px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.form .btn:hover{
+    color: #CAD8DE;
+
+}
+
+h3{
+    font-size: 20px;
+    text-align: left;
+    padding: 1% 2% 1% 2%;
+    font-style: normal;
+}
+
+
+h2{
+    background-color: #3C896D;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    font-style: oblique;
+}
+p{
+    line-height: 1.6;
+    font-size: 20px;
+    padding-top: 5%;
+    text-align:center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+     margin: 5% 10% 5% 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(
+        50deg, 
+        #98a27ee0 10%,
+        #645853cb), 
+        url('./imagenes/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 500px;
+    border-radius: 30px;
+    
+}
+
+h3{
+    text-align: center;
+    padding: 1% 0% 2% 0%;
+    font-style: normal;
+}
+.form h4{
+    color: #F4F6F9;
+    font-size: 40px;
+    
+}
+
+label{
+    font-size: 17px;
+    color: #c1c8dd;
+    margin-bottom: 10px;
+}
+input , textarea{
+    padding: 15px 10px;
+    background-color: #CAD8DE;
+    border: 0;
+    color: #00183d;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+}
+#Avales{
+    width: 100%;
+    background-image: url('./imagenes/background-with-blue-gradient-free-vector.jpg') ;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-size: cover;
+}
+.card1{
+    margin: 10px;
+    padding-bottom: 10%;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: #28012b;
+    cursor: default;
+    transition: all 300ms ease;
+}
+
+
+@keyframes mover {
+    0% {
+        transform: translateY(-100%);
+        opacity: 10%;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+}
+
+h5{
+    color: #737783;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+    color: #737783;
+    padding-bottom: 15%;
+    padding-top: 3%;
+}
+
+h6{
+    background-color: rgba(108, 150, 135, 0.5); 
+    margin: 15px 65% 5px 15px;
+    padding: 2%;
+}
